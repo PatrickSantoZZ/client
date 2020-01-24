@@ -1,6 +1,6 @@
 {
 	"name": "client",
-	"update": "github:kloct/command@multiclient",
+	"update": "github:kloct/client",
 	"author": "Kloct",
 	"description": "A basic function library for controlling a tera client"
 }
