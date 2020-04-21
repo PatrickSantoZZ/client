@@ -60,7 +60,7 @@ class Client {
         }
     }
     loginArbiter(cb){
-        const web = new webClient(this.settings.region, this.settings.accountEmail, this.settings.accountPassword, this.mod.dispatch.interfaceAddress);
+        const web = new webClient(this.settings.region, this.settings.accountEmail, this.settings.accountPassword, undefined, this.mod.dispatch.interfaceAddress);
         web.getLogin((err, data) =>{
             if(err){
                 this.log.error(err);
