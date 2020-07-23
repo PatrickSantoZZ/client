@@ -82,7 +82,7 @@ class Client {
     }
     characterSelect(characterName, relog){
         this.mod.send('C_GET_USER_LIST', 1)
-        this.mod.hookOnce('S_GET_USER_LIST', 15, event=>{
+        this.mod.hookOnce('S_GET_USER_LIST', 18, event=>{
             // parse character list
             const characters = new Map();
             for (const character of event.characters) {
