@@ -1,7 +1,8 @@
 {
     "files": {
-        "index.js": "15f68bc87a1113636e0dde1a53d741f6da71154e0f319372c2dcfd311ebe29b5",
-        "mod.json": "52b64c4709cca36e00408a4f169a0fca9f29da82c97244dcb24b81fded2f281b"
+        "index.js": "496cd50e879761ac7c8049e4b1c638e94a17ac2a014df318549ab590918193df",
+        "mod.json": "52b64c4709cca36e00408a4f169a0fca9f29da82c97244dcb24b81fded2f281b",
+        "module.json": "3b646d8f1f31af8e93b997ceff61dcc6a89034d3610054600deadbbef9a155b3"
     },
     "defs": {
         "C_GET_USER_LIST": 1,
